@@ -7,6 +7,7 @@ const routes = [
   {
     path: '/',
     component: HomeView,
+    redirect: '/microOtp/home',
   },
   {
     path: '/microOtp/:page*',
